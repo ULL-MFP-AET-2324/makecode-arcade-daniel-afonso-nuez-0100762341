@@ -1,8 +1,3 @@
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
-    comida.x = randint(8, scene.screenWidth() - 8)
-    comida.y = randint(0, scene.screenHeight())
-})
-let comida: Sprite = null
 scene.setBackgroundColor(9)
 let Héroe = sprites.create(img`
     . . . . . . f f f f . . . . . . 
@@ -23,7 +18,7 @@ let Héroe = sprites.create(img`
     . . . . . f f . . f f . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(Héroe)
-comida = sprites.create(img`
+let comida = sprites.create(img`
     . . . . . . . e c 7 . . . . . . 
     . . . . e e e c 7 7 e e . . . . 
     . . c e e e e c 7 e 2 2 e e . . 
