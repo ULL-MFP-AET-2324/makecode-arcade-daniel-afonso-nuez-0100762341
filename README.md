@@ -1,6 +1,7 @@
 ##ENTREGA TAREA
 
 *[ASIGNACIÓN CREADA EN GH CLASSROOM](https://classroom.github.com/classrooms/149099772-ull-mfp-aet-2324-alu0100762341/assignments/tarea-makecode-arcade-daniel-afonso-nuez)
+*[ROSTER](https://classroom.github.com/classrooms/149099772-ull-mfp-aet-2324-alu0100762341/roster)
 
 
 
